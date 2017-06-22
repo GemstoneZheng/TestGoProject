@@ -15,7 +15,7 @@ type SimpleChaincode struct {
 }
 
 // ===================================================================================
-// Init
+// Init方法
 // ===================================================================================
 
 func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface, function string, args []string) ([]byte, error) {
